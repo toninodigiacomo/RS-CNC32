@@ -7,7 +7,11 @@ The electronics GRBL 32-bit board kit, is a complete, autonomous solution that i
 - The firmware is open source, GRBL 1.1 for the control board and firmware developed by Mstrens from the forum for the TFT module.
 
 ## 📂 Table for managing flutes and milling speed.
-The router is a Makita 65 mm with a [dust shoe](https://www.thingiverse.com/thing:3887768).
-| Name | Diameter | X/Y speed | Z speed | Rotation speed | Cut Depth | Comments |
+The router is a Makita  RT0700C (65mm) with a [dust shoe](https://www.thingiverse.com/thing:3887768).
+| Name | Ø | X/Y sp. | Z sp. | Rotation | Cut Depth | Comments |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| Copper mill V 30° | 0.1mm | 300mm/min | 100mm/min | Position 3 | 0.1mm | A “Probe” is crucial. Since copper is conductive, a simple wire connected to the Probe input can be used to perform the Z-Zero. |
+| Copper mill V 30° | 0.1mm | 300mm/min | 100mm/min | Position 3 | 0.1mm | To engrave a PCB, a conventional milling cutter cannot be used. Ref : [AliExpress](https://de.aliexpress.com/item/1005001813809427.html?spm=a2g0o.order_list.order_list_main.167.44545e5banGrrf&gatewayAdapt=glo2deu) |
+| Copper mill Ø 2mm | 0.8mm | 0 | 100mm/min | Position 6 | 0.5mm | PCB holes. [AliExpress](https://de.aliexpress.com/item/1005010079828544.html?spm=a2g0o.order_list.order_list_main.11.44545e5banGrrf&gatewayAdapt=glo2deu) |
+| Copper mill Ø 2mm | 2mm | 0 | 100mm/min | Position 6 | 0.5mm | Fixation holes. Ref : [AliExpress](https://de.aliexpress.com/item/1005001813809427.html?spm=a2g0o.order_list.order_list_main.167.44545e5banGrrf&gatewayAdapt=glo2deu)
+
+- For copper engraving, a “Probe” is crucial. Since copper is conductive, a simple wire connected to the Probe input can be used to perform the Z-Zero. 
